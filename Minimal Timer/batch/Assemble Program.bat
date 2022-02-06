@@ -7,7 +7,7 @@ GOTO :FIRSTASSEMBLY
 
 :FIRSTASSEMBLY
 mkdir "%~dp0..\bin"
-"C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe" /t:exe /out:"Minimal Timer.exe" "Program.cs" "AssemblyInfo.cs" /platform:x86 /win32icon:"Timer.ico"
+"C:\Windows\Microsoft.NET\Framework\v2.0.50727\csc.exe" /t:winexe /out:"Minimal Timer.exe" "Program.cs" "MainForm.cs" "AssemblyInfo.cs" /platform:x86 /win32icon:"Timer.ico"
 move "Minimal Timer.exe" "bin"
 explorer "%~dp0..\bin"
 pause
@@ -16,7 +16,7 @@ taskkill /f /im cmd.exe
 :ASSEMBLY
 echo.
 rmdir /s /q "%~dp0..\bin" >NUL 2>&1
-"C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe" /t:exe /out:"Minimal Timer.exe" "Program.cs" "AssemblyInfo.cs" /platform:x86 /win32icon:"Timer.ico"
+"C:\Windows\Microsoft.NET\Framework\v2.0.50727\csc.exe" /t:winexe /out:"Minimal Timer.exe" "Program.cs" "MainForm.cs" "AssemblyInfo.cs" /platform:x86 /win32icon:"Timer.ico"
 mkdir "%~dp0..\bin"
 move "Minimal Timer.exe" "bin"
 explorer "%~dp0..\bin"
