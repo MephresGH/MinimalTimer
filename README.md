@@ -3,7 +3,7 @@ Minimal Timer is an open source, lightweight alternative to the "Timer Resolutio
 
 Minimal Timer was made for those who do not need, want or cannot use the additional parameters, commands of the original application without facing complications of any kind.
 
-The program was compiled with .NET 4.0. For further information, please research by your own volition.
+The program was compiled with .NET 2.0.50727. For further information, please research by your own volition.
 
 ## Credits
 
