@@ -17,12 +17,6 @@ https://openmoji.org
 
 https://creazilla.com/nodes/45101-five-o-clock-emoji-clipart
 
-#### Mephres (Creation Of Application; Source Code; Assembly; Optimizations):
-
-https://www.github.com/MephresGH
-
-https://www.youtube.com/OSAPHIA
-
 ## Source Code
 The source code files can be found in the archive and in the release section.
 
